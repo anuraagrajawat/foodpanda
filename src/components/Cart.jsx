@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const Cart = () => {
     // Sample cart items
-    const [cartItems, setCartItems] = useState([
+    const [cartItems] = useState([
         {
             id: 1,
             name: "Pizza Margherita",
